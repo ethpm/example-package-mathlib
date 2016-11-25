@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "Piper Merriam <pipermerriam@gmail.com>"
+  ],
+  "description": "Library for performing mathematical operations",
+  "keywords": [
+    "math"
+  ],
+  "license": "MIT",
+  "manifest_version": 1,
+  "package_name": "math-lib",
+  "sources": [
+    "./contracts/*.sol",
+    "./contracts/**/*.sol"
+  ],
+  "version": "1.0.0",
+  "dependencies": {
+    "multiply-13": "^1.0.0"
+  }
+}
